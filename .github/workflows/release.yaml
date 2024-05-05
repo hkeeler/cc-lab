@@ -24,7 +24,7 @@ jobs:
         with:
           push: false
           # 3: NO_COMMITS_FOUND, 21: NO_INCREMENT
-          no_raise = "3,21"
+          no_raise: "3,21"
       - name: Push using ssh
         run: git push origin main --tags
       - name: Print Version
