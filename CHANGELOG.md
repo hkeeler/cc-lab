@@ -1,3 +1,9 @@
+## 0.2.0 (2024-05-05)
+
+### Feat
+
+- add basic Python project setup (#7)
+
 ## 0.1.3 (2024-05-05)
 
 ### Fix
