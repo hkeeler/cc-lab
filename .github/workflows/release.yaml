@@ -16,8 +16,8 @@ jobs:
         with:
           fetch-depth: 0
           #token: "${{ secrets.GITHUB_TOKEN }}"
-          ssh-key: "${{ secrets.DEPLOY_KEY_ANON }}"
-          #ssh-key: "${{ secrets.DEPLOY_KEY_HKEELER }}"
+          #ssh-key: "${{ secrets.DEPLOY_KEY_ANON }}"
+          ssh-key: "${{ secrets.DEPLOY_KEY_HKEELER }}"
       - id: cz
         name: Create bump and changelog
         uses: commitizen-tools/commitizen-action@master
