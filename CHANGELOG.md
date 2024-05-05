@@ -1,3 +1,9 @@
+## 0.1.2 (2024-05-05)
+
+### Fix
+
+- will `hkeeler` deploy key make any diff? (#5)
+
 ## 0.1.1 (2024-05-05)
 
 ### Fix
