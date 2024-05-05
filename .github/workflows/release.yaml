@@ -21,10 +21,10 @@ jobs:
       - id: cz
         name: Create bump and changelog
         uses: commitizen-tools/commitizen-action@master
-        #with:
-        #  github_token: ${{ secrets.GITHUB_TOKEN }}
         with:
           push: false
+          # 3: NO_COMMITS_FOUND, 21: NO_INCREMENT
+          no_raise = "3,21"
       - name: Push using ssh
         run: git push origin main --tags
       - name: Print Version
