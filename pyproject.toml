@@ -14,6 +14,8 @@ commitizen = "^3.25.0"
 
 [tool.commitizen]
 version_provider = "poetry"
+# 3: NO_COMMITS_FOUND, 21: NO_INCREMENT
+no_raise = "3,21"
 
 [build-system]
 requires = ["poetry-core"]
