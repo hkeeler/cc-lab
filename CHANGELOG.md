@@ -1,3 +1,10 @@
+## 0.2.2 (2024-05-05)
+
+### Fix
+
+- syntax for `no_raise` in `release.yaml` (#10)
+- move comittizen `no_raise` to Action config (#9)
+
 ## 0.2.1 (2024-05-05)
 
 ### Fix
