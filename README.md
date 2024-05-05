@@ -8,3 +8,5 @@ Experiments with conventional commits
 ### PR Linter
 
 ### Commitizen
+
+#### Version-incrementing commits
