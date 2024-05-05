@@ -1,3 +1,9 @@
+## 0.2.1 (2024-05-05)
+
+### Fix
+
+- allow commitizen NO_COMMIT_FOUND exit code (#8)
+
 ## 0.2.0 (2024-05-05)
 
 ### Feat

@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cc-lab"
-version = "0.2.0"
+version = "0.2.1"
 description = "Experiments with Conventional Commits and automated releases"
 authors = ["Hans Keeler <hkeeler@gmail.com>"]
 readme = "README.md"
