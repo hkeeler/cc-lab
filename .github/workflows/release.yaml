@@ -24,7 +24,7 @@ jobs:
           # 3: NO_COMMITS_FOUND, 21: NO_INCREMENT
           no_raise: "3"
       - name: Push using ssh
-        run: git push origin --tags
+        run: git push --tags origin main
       - name: Print Version
         run: echo "Bumped to version ${{ steps.cz.outputs.version }}"
         
