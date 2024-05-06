@@ -8,7 +8,7 @@ def get_time() -> str:
 
 def main():
     now = get_time()
-    print(f"Hello World @ {now}!")
+    print(f"Hello World @ {now}!!!")
 
 if __name__ == "__main__":
     main()
