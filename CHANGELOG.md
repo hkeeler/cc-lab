@@ -1,3 +1,13 @@
+## 0.3.0 (2024-05-06)
+
+### Feat
+
+- add timestamp to "hello world" (#15)
+
+### Fix
+
+- will removing `main` from tag push fix commitizen? (#11)
+
 ## 0.2.2 (2024-05-05)
 
 ### Fix
