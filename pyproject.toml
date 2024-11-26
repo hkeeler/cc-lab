@@ -10,7 +10,7 @@ packages = [{include = "cc_lab"}]
 python = "^3.10"
 
 [tool.poetry.group.dev.dependencies]
-commitizen = "^3.25.0"
+commitizen = "^4.0.0"
 
 [tool.commitizen]
 version_provider = "poetry"
